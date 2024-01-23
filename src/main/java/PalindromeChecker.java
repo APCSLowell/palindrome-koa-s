@@ -49,7 +49,7 @@ public void setup()
     }
   }
 }
-public boolean palindrome(String sString)
+public static boolean palindrome(String sString)
 {
   String str="";
   String word = noCapitals(onlyLetters(sString));
