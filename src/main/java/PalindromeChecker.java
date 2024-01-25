@@ -71,3 +71,4 @@ public String onlyLetters(String sString) {
 public String noCapitals(String sWord) {
   return sWord.toLowerCase();
 }
+}
