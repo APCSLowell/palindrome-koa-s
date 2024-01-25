@@ -57,7 +57,7 @@ public String reverse(String str)
   }
   return sNew;
 }
-public String onlyLetters(String sString) {
+public static String onlyLetters(String sString) {
   String str = "";
   for (int i = 0; i<sString.length(); i++)
   {
@@ -68,7 +68,7 @@ public String onlyLetters(String sString) {
   }
   return str;
 }
-public String noCapitals(String sWord) {
+public static String noCapitals(String sWord) {
   return sWord.toLowerCase();
 }
 }
